@@ -17,9 +17,12 @@ export const Form = () => {
   };
 
   return (
+    <>
+   <h1 style={{textAlign:"center", marginTop: "20px" }}>Sign Up Form</h1>
+   <h3  style={{textAlign:"center"}}>DEVELOPED BY ABDULLAH BHATTI</h3>
     <form
       onSubmit={handleSubmit}
-      style={{ width: "50%", margin: "auto", marginTop: "200px" }}
+      style={{ width: "50%", margin: "auto", marginTop: "50px" }}
     >
       <TextField
         label="Email"
@@ -54,5 +57,6 @@ export const Form = () => {
         </div>
       )}
     </form>
+    </>
   );
 };
