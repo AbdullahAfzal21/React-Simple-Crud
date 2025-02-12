@@ -37,7 +37,7 @@ export const View = () => {
     setUpdateForm(false); 
   }
 
-  // Logout and redirect to login page
+
   function logout() {
     localStorage.removeItem("userdata");
     navigate("/");
