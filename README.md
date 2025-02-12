@@ -1,31 +1,32 @@
-# React CRUD App with Local Storage & MUI
+# React CRUD App with Local Storage & MUI  
 
-## Overview
-Yeh aik **CRUD (Create, Read, Update, Delete)** React app hai jo **MUI (Material UI)** ka use karti hai aur data **Local Storage** mein store karti hai. Yeh app user ko sign-up, update, aur logout ki sahulat deti hai.
+## Overview  
+This is a **CRUD (Create, Read, Update, Delete)** React application that utilizes **MUI (Material UI)** and stores user data in **Local Storage**. The app allows users to sign up, update their credentials, and log out.  
 
-## Features
-✅ **Sign Up** – User email aur password enter kar ke account bana sakta hai.  
-✅ **Read** – User apna saved data dekh sakta hai.  
-✅ **Update** – User apna email ya password update kar sakta hai.  
-✅ **Delete/Logout** – User apna data remove kar ke logout ho sakta hai.  
+## Features  
+✅ **Sign Up** – Users can enter their email and password to create an account.  
+✅ **Read** – Users can view their saved account data.  
+✅ **Update** – Users can update their email or password.  
+✅ **Delete/Logout** – Users can remove their data and log out.  
 
-## Technologies Used
-- **React** – UI banane ke liye.
-- **React Router** – Navigation handle karne ke liye.
-- **Material UI (MUI)** – Stylish UI components.
-- **Local Storage** – Data save aur retrieve karne ke liye.
+## Technologies Used  
+- **React** – For building the user interface.  
+- **React Router** – For handling navigation.  
+- **Material UI (MUI)** – For stylish UI components.  
+- **Local Storage** – For saving and retrieving data.  
 
-## Installation & Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AbdullahAfzal21/React-Simple-Crud.git
+## Installation & Setup  
+Clone the repository:  
+```bash
+git clone https://github.com/AbdullahAfzal21/React-Simple-Crud.git
+
 
 
 /src
- ├── components
- │   ├── form       # User Sign Up Component
- │   │   ├── index.js
- │   ├── view       # User Data View & Update Component
- │   │   ├── index.js
- ├── App.js         # Main component
- ├── index.js       # Entry point
+├── components
+│   ├── form       
+│   │   ├── index.js
+│   ├── view       
+│   │   ├── index.js
+├── App.js         
+├── index.js       
